@@ -14,7 +14,7 @@
           <span v-show="bottomStatus !== 'loading'"
             :class="{'is-rotate': bottomStatus === 'drop'}">↑</span>
           <span v-show="bottomStatus === 'loading'">
-            <mt-spinner type="snake"></mt-spinner>
+            <div>加载中...</div>
           </span>
         </div>
       </mt-loadmore>  
